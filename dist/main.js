@@ -33,7 +33,7 @@ class GetApiService {
     apiCall(id) {
         //alert(id);
         //return this.http.get('https://guardianeb.com/api/typing-practice/22');
-        return this.http.get('https://guardianeb.com/api/typing-practice/' + id);
+        return this.http.get('https://www.guardianeb.com/api/typing-practice/' + id);
     }
 }
 GetApiService.ɵfac = function GetApiService_Factory(t) { return new (t || GetApiService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
